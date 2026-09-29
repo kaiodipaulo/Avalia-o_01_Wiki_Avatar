@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaio di Paulo">
+    <meta name="keywords" content="html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wiki Avatar - homepage</title>
+</head>
+
+<body>
+
+    <header>
+        <time datetime="29/06/2026">29 de junho de 2026</time>
+        <h1>Avatar: A Lenda de Aang</h1>
+
+        <nav>
+            <a href="../html/home.html">Home</a> |
+            <a href="../html/agua.html">Água</a> |
+            <a href="../html/terra.html">Terra</a> |
+            <a href="../html/fogo.html">Fogo</a> |
+            <a href="../html/ar.html">Ar</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Sobre a obra</h2>
+
+            <article>
+                <p>
+                    <abbr title="Avatar: A Lenda de Aang">ATLA</abbr> é uma animação
+                    que acompanha Aang, um jovem Nômade do Ar que descobre ser o Avatar,
+                    responsável por manter o equilíbrio entre as quatro nações.
+                </p>
+
+                <p>
+                    A história apresenta um mundo dividido entre quatro grandes povos:
+                    as Tribos da Água, o Reino da Terra, a Nação do Fogo e os Nômades
+                    do Ar. Cada um deles possui uma relação diferente com um elemento.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Abertura de Avatar: A Lenda de Aang</h2>
+
+            <figure>
+                <video controls width="500">
+                    <source src="../video/Avatar A Lenda de Aang - Abertura - Eriika (480p, h264).mp4" type="video/mp4">
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+                <figcaption>Abertura de Avatar: A Lenda de Aang.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>O universo</h2>
+
+            <article>
+                <p>
+                    O mundo de Avatar é baseado na existência de quatro elementos:
+                    <mark>água, terra, fogo e ar</mark>.
+                </p>
+
+                <p>
+                    Algumas pessoas possuem a capacidade de controlar um desses
+                    elementos por meio de uma habilidade conhecida como dobra.
+                </p>
+
+                <p>
+                    O Avatar é a única pessoa capaz de dominar os quatro elementos.
+                </p>
+            </article>
+
+            <figure>
+                <img src="../img/mapa_avatar.webp" alt="Representação do universo de Avatar">
+                <figcaption>O universo de Avatar e seus quatro elementos.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>As quatro nações</h2>
+
+            <table border="1">
+                <caption>Elementos e povos do mundo de Avatar</caption>
+
+                <tr>
+                    <th>Nação</th>
+                    <th colspan="2">Elemento</th>
+                </tr>
+
+                <tr>
+                    <td>Tribos da Água</td>
+                    <td>Água</td>
+                    <td>Dobra de água</td>
+                </tr>
+
+                <tr>
+                    <td>Reino da Terra</td>
+                    <td>Terra</td>
+                    <td>Dobra de terra</td>
+                </tr>
+
+                <tr>
+                    <td>Nação do Fogo</td>
+                    <td>Fogo</td>
+                    <td>Dobra de fogo</td>
+                </tr>
+
+                <tr>
+                    <td>Nômades do Ar</td>
+                    <td>Ar</td>
+                    <td>Dobra de ar</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Trilha sonora</h2>
+
+            <audio autoplay controls>
+                <source src="../audio/Intro  Avatar The Last Airbender Soundtrack - Avatar Archive.mp3"
+                    type="audio/mpeg">
+                Seu navegador não suporta a reprodução de áudio.
+            </audio>
+        </section>
+
+        <!-- Tive dificuldade em fazer esse formulário, na verdade tenho dificuldade com formulários -->
+        <section>
+            <h2>Escolha sua nação favorita</h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+                <br><br>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+
+                <br><br>
+
+                <label for="nacao">Nação:</label>
+                <input list="nacoes" id="nacao" placeholder="Escolha uma nação">
+
+                <datalist id="nacoes">
+                    <option value="Tribos da Água">
+                    <option value="Reino da Terra">
+                    <option value="Nação do Fogo">
+                    <option value="Nômades do Ar">
+                </datalist>
+
+                <br><br>
+
+                <label for="conhecimento">Conhecimento sobre Avatar:</label>
+                <input type="range" id="conhecimento" min="0" max="100">
+
+                <br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <aside>
+            <h2>Progresso da wiki</h2>
+            <progress value="100" max="100">100%</progress>
+
+            <blockquote>
+                "Tá vendo que a tabela não está centralizada?"
+            </blockquote>
+        </aside>
+
+
+
+    </main>
+
+    <footer>
+        <p>Wiki Avatar.</p>
+    </footer>
+
+</body>
+
+</html>
